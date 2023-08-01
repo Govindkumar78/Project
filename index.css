@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'poppins' sans-serif;
+    box-sizing: border-box;
+    background: rgb(180, 178, 175);
+}
+
+
+ /* .container{
+    width: 100px;
+    height:100px;
+   background-color: ;
+    padding: 10%;
+    align-items: center; */
+
+#border{
+    
+    border: 3px solid rgb(180, 178, 175);
+    height: 300px;
+    width: 250%;
+   max-width: 540px;
+  
+   background: #fff;
+   margin: 100px auto 20px;
+   padding: 40px 30px 70px;
+   border-radius: 10px;
+
+} 
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  border-radius: 30px;
+}
+#add-button {
+  position: relative;
+  left: 400px;
+  padding: 5px 10px;
+  background-color: #071422;
+  color: #fff;
+  border: 2px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+#search-input {
+  
+  flex: 1;
+  margin-left: 5px;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+#add-button:hover {
+ 
+border-color: #040f1b;
+}
+img {
+  /* background-color: #000; */
+  width: 25px;
+  height: 30px;
+  padding: 2px;
+  margin: 3px;
+  border: 5px;
+}
+
+
+ .container{
+  
+  background-color: white;
+  text-decoration: underline;
+  color: rgb(180, 178, 175);
+ }
+ .marked-A{
+  /* top: 12px; */
+  /* background-image: url(Checkbox.png); */
+  background-color: white;
+  display: inline;
+  /* position: relative; */
+  /* left:400px; */
+  /*  */
+   /* background-color: white; */
+   /* align-items:"right"  */
+ }
+ #marked-B{
+  
+  position: relative;
+  left: 250px;
+ }
+ #one {
+  position: relative;
+  top: 10px;
+  border: none;
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  }
+ ul li{
+    background: #fff;
+    list-style: none;
+    font-style: 17px;
+    padding:12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+ }
+ ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width:28px;
+    border-radius: 50px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/foundation/thumb/6/6b/Ooui-checkbox.svg/480px-Ooui-checkbox.svg.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+    }
+    #add-button-1 {
+      position: relative;
+      left: 275px;
+      padding: 5px 10px;
+      background-color: #fff;
+      
+      color: #000;
+      border: 2px;
+      /* border-radius: 50px;
+      background-size: cover; */
+      cursor: pointer;
+    }
+    #add-button-2{
+      position: relative;
+      left: 225px;
+      padding: 5px 10px;
+      background-color: #fff;
+      
+      color: #000;
+      border: 2px;
+      /* border-radius: 50px;
+      background-size: cover; */
+      cursor: pointer;
+    }
+    #add-button-3{
+       position: relative;
+      left: 299px;
+      padding: 5px 10px;
+      background-color: #fff;
+      
+      color: #000;
+      border: 2px;
+      /* border-radius: 50px;
+      background-size: cover; */
+      cursor: pointer;
+    
+     
+     
+     
+    } 
+    .container-1{
+  
+      background-color: white;
+      /* text-decoration: underline; */
+      color: rgb(180, 178, 175);
+     }
+     .marked{
+      /* top: 12px; */
+      /* background-image: url(Checkbox.png); */
+      background-color: white;
+      display: inline;
+      /* position: relative; */
+      /* left:400px; */
+      /*  */
+       /* background-color: white; */
+       /* align-items:"right"  */
+     }
+     #marked2{
+      color: #000;
+      position: relative;
+      left: 250px;
+
+     }
+     #marked3{
+     
+      position: relative;
+      left: 250px;
+     }
+     #marked4{
+    
+      position: relative;
+      left: 250px;
+      cursor: pointer;
+     }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Todo-list</title>
+   
+          
+</head>
+
+<link rel="stylesheet" href="index.css" />
+
+       
+<body>
+   
+    <div id="border">
+        <div class="search-bar">
+            <img src="https://www.sparklebox.co.uk/literacy/writing/frames/wpimages/wpc1e67dd5_05_06.jpg" alt="Search Icon">
+            <button onclick="addTask()"id="add-button">+</button> 
+           
+             <input type="text" id="search-input" placeholder="Type your todo list">
+           
+          </div>
+<!-- <div class="todo-list">       
+        <input type="text" id="input-box" placeholder="Type your todo list">
+        <button>Add</button>
+    </div>  -->
+   <div class="container">
+    <img id="one"src="Checkbox.png">
+    <div class="marked" id="marked-A">complete all task </div>
+    <div class="marked" id="marked-B">clear complete </div>
+    </div>
+
+  
+       <ul id="search-list" >
+       
+            <li>Wake up at 5am  <button id="add-button-1">x</button></li>
+           
+            <li> Learn how to use Vue.js <button id="add-button-2">x</button></li>
+           
+            <li>Drink coffee <button id="add-button-3">x</button></li>
+           
+           </ul> 
+           <div class="container-1">
+            
+            <div class="marked" id="marked1">2 task left </div>
+            <div class="marked" id="marked2">All</div>
+            <div class="marked" id="marked3">uncomplete</div>
+            <div class="marked" id="marked4">completed</div>
+            </div>
+        </div>            
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
